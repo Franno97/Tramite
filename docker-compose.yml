@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  mre.visas.tramite.api:
+    image: ${DOCKER_REGISTRY-}mrevisastramiteapi
+    build:
+      context: .
+      dockerfile: src/Mre.Visas.Tramite.Api/Dockerfile

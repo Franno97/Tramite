@@ -1,0 +1,2 @@
+git init
+git remote add origin ssh://172.31.3.33:22/MRE/Visas/_git/Tramite

@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  mre.visas.tramite.api:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "19557:80"
